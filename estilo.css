@@ -1,0 +1,308 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+
+.logo > img {
+    width: 140px;
+    margin: 5px;
+
+    margin-left: 15px;
+}
+
+.menu{
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    }
+
+nav{
+	display:flex;
+	flex-direction: row;
+
+	align-items: center;
+}
+
+nav > div{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+nav > div > a {
+	text-decoration: none;
+	font-size:larger;
+	color:slateblue;
+}
+
+nav > div > a:hover{
+	color: hotpink;
+}
+
+.banner{
+	width: 100%;
+	height: 750px;
+}
+.banner > img {
+	width: 100%;
+	max-height: 750px;
+}
+
+.slogan{
+	font-size:40px;
+	color:lightyellow;
+
+	position:absolute;
+	top:51%;
+	left:26%;
+}
+
+.polpas{
+	background-color: #fff3f4;
+	padding:40px;
+}
+.secaoFrutas{
+	padding: 30px;
+	background-color: #fff3f4;
+}
+
+.secaoMudas{
+	padding: 30px;
+	background-color: #fff3f4 ;
+}
+
+.sobre{
+	padding: 30px;
+	background-color: lightblue;
+}
+
+.sabor, .frutas, .mudasRow{
+	min-height: 300px;
+	min-width: 250px;
+	padding: 15px;
+}
+
+center > h1{
+  color: hotpink;
+  font-size:35px;
+}
+
+center > div{
+	color: lightpink;
+	
+}
+
+
+.s01{
+	background-image: url("../imagens/rosa.jpeg");
+}
+
+.s02{
+	background-image: url("../imagens/azul.jpeg");
+}
+
+.s03{
+	background-image: url("../imagens/amarelo.jpeg");
+}
+
+.s04{
+	background-image: url("../imagens/chocolate.jpeg");
+}
+
+.s05{
+	background-image: url("../imagens/caramelo.jpeg");
+}
+
+.s06{
+	background-image: url("../imagens/natal.jpg");
+}
+
+.s07{
+	background-image: url("../imagens/pinto.jpeg");
+}
+
+.s08{
+	background-image: url("../imagens/molangpelucia.jpeg");
+}
+
+.saborRows, .rowFrutas, .mudasRow{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.s01, .s08{
+	flex:2;
+}
+.s02, .s03, .s04, .s05, .s06, .s07{
+	flex:1;
+}
+
+ .s01,.s02, .s03, .s04, .s05, .s06, .s07, .s08, .f01, .f02, .f03, .m01, .m02, .m03{
+
+        border: 2px solid hotpink;
+        border-radius: 10px;
+
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        font-size: x-large;
+        font-weight: bolder;
+
+        margin: 10px;
+
+        color: hotpink;
+}
+
+.f01{
+	background-image: url("../imagens/casinha.jpeg");
+}
+
+.f02{
+	background-image: url("../imagens/casita.jpg");
+}
+
+.f03{
+	background-image: url("../imagens/casinhasmaletas.jpg");
+}
+
+.f01, .f02, .f03, .m01, .m02, .m03, .missao, .visao, .valores{
+	flex:1;
+}
+
+
+
+.m01{
+	background-image: url("../imagens/piscina.jpg");
+}
+
+.m02{
+	background-image: url("../imagens/natalgrande.jpeg");
+}
+
+.m03{
+	background-image: url("../imagens/conto.jpg");
+}
+
+.descricao{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.descricao > h2{
+	color: steelblue;
+	margin: 10px;
+}
+
+.descricao > h4{
+	color: #6495ED;
+	margin: 10px;
+}
+
+.descricao > div{
+	margin: 10PX;
+
+}
+
+.missaoVisaoValores{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    
+    padding: 20px;
+
+}
+
+.missao, .visao, .valores{
+/*	     border:1px solid steelblue;*/
+         padding: 10px;
+
+         min-width: 300px;
+         height: 200px;
+
+         text-align: center;
+         font-size:20px;
+}
+
+.missao > h2, > .visao > h2, .valores > h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: steelblue;
+}
+
+hr{
+	width: 15%;
+	margin: auto;
+
+	margin-bottom: 15px;
+	height: 3px;
+	background-color: steelblue;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	padding: 10px;
+
+	font-size:20px;
+	
+
+}
+
+.rodape >.col-1, .rodape > .col-2, .rodape > .col-3{
+	flex:1;
+
+    min-width: 300px;
+
+	height: 350px;
+	text-align: center;
+}
+
+.rodape > .col-1 > img, .rodape > .col-1 > p, .rodape > .col-2> p{
+	margin-bottom: 15px;
+}
+
+.rodape > .col-2 > h2{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.subRodape{
+	flex-direction: row;
+	display: flex;
+
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+	height: 40px;
+
+	background-color: lightyellow;
+	color:steelblue;
+
+	font-size: 18px;
+
+}
+
+.subRodape > .col-2 > a{
+	text-decoration: none;
+	margin: 5px;
+	color: steelblue;
+}
+
